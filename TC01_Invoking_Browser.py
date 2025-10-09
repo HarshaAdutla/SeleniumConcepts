@@ -12,7 +12,9 @@ from selenium.webdriver.edge.service import Service
 service_obj = Service()  # It will automatically download the suitable version and starts the execution
 driver = webdriver.Chrome(service=service_obj)
 driver.get("https://rahulshettyacademy.com")
-time.sleep(3)
+
+
+
 
 
 
